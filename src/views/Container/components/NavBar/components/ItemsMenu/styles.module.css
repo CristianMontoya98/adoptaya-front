@@ -1,0 +1,31 @@
+.menu{
+    position: fixed;
+    background: var(--white);
+    height: calc(100vh - 11.6rem);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    transition: all ease 0.3s;
+}
+.menu__elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu__elements li{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--green3);
+}
+.hide{
+    top: -100%;
+}
+.show{
+    top:11.6rem;
+}
