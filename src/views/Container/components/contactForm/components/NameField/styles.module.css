@@ -1,7 +1,11 @@
 .nameField{
-    border-radius: 3rem;
+    border-radius: 1.5rem;
     border: solid 2px var(--green3);
     padding: 1rem;
-    width: 15rem;
-    height: 1,5rem;
+    width: 24rem;
+    height: 2rem;
+
+}
+.nameField:focus{
+    outline: none;
 }

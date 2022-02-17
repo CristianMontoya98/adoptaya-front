@@ -1,12 +1,11 @@
+import { Link } from "react-router-dom";
 import styles from "./styles.module.css";
 
 function Button(props){
-    const { text } = props;
+    const { text, route } = props;
     return (
         <>
-            <span className={styles.btnForm}>
-                <a>{text}</a>
-            </span>
+            <Link to={route}><button className={styles.btnForm}>{text}</button></Link>
         </>
     );
 }

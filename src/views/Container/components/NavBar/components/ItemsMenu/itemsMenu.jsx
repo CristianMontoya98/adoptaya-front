@@ -7,7 +7,7 @@ function ItemsMenu(props) {
             <ul className={styles.menu__elements}>
                 <li onClick={()=>handleItemClick()}><Link to="/adopt">Inicio</Link></li>
                 <li onClick={()=>handleItemClick()}><Link to="/adopt">Adóptame</Link></li>
-                <li onClick={()=>handleItemClick()}><Link to="/encuentraleHogar">Encuentrale hogar</Link></li>
+                <li onClick={()=>handleItemClick()}>Encuentrale hogar</li>
             </ul>
         </div>
     );

@@ -19,7 +19,7 @@ function Detail(props) {
               contact={detail.contact}
               contentBtn="Contactar"
               styleBtn={false}
-              route="/adopt"
+              route="/contact"
               clickEvent={()=>undefined}
                 />
     </div>
