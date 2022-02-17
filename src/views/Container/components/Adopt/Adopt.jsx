@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Card } from "./components/Card/Card";
 import { SearchBox } from "./components/SearchBox/searchBox";
 import styles from "./styles.module.css";
-import data from "../../../../data/data.json";
 import axios from "axios";
 function Adopt(props) {
   const { setDet } = props;
