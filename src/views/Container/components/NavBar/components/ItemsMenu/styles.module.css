@@ -33,3 +33,7 @@
 .show{
     top:9.6rem;
 }
+.menu a {
+    text-decoration: none;
+    color: var(--blue3);
+  }

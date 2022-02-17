@@ -9,14 +9,17 @@ function NavBar() {
 
 const handleMenuClick = () => {
     setToggle(!toggle);
-}
+    }
+    const handleItemClick = () => {
+        setToggle(false);
+      };
     return (
         <nav className={styles.nav}>
             <div className={styles.nav__top}>
                 <img src={logo} alt="logo adoptaYa" />
                 <ButtonMenu handleMenuClick={handleMenuClick} iconActive={toggle ? "fas fa-times":"fas fa-bars"} />
             </div>
-            <ItemsMenu show={toggle}/>
+            <ItemsMenu show={toggle} handleItemClick={handleItemClick}/>
         </nav>
     );
 }

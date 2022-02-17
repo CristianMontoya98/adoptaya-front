@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom';
 import styles from './styles.module.css';
 function ItemsMenu(props) {
-    const {show} = props;
+    const {show, handleItemClick} = props;
     return (
         <div className={`${styles.menu} ${show ? styles.show : styles.hide}`}>
             <ul className={styles.menu__elements}>
-                <li>Inicio</li>
-                <li>Adóptame</li>
-                <li>Encuentrale hogar</li>
+                <li onClick={()=>handleItemClick()}><Link to="/adopt">Inicio</Link></li>
+                <li onClick={()=>handleItemClick()}><Link to="/adopt">Adóptame</Link></li>
+                <li onClick={()=>handleItemClick()}><Link to="/encuentraleHogar">Encuentrale hogar</Link></li>
             </ul>
         </div>
     );

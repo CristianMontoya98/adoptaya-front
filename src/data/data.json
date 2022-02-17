@@ -19,13 +19,12 @@
     "status": "En acogida",
     "species":"Gato",
     "location":"Madrid",
-    "description":"Un gatito muy amoroso que está ansioso por estar en tu hogar",
-    "description_abridged": "Un gatito muy amoroso que está ansioso por estar en tu hogar",
+    "description":"Un gatito muy amoroso que está ansioso por estar en tu hogar, fue encontrado en una calle de Madrid luego de que lo abandoranan, lo encontré y lo recogí pero no puedo tenerlo más tiempo en casa",
+    "descriptionabridged": "Un gatito muy amoroso que está ansioso por estar en tu hogar",
     "img":"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg",
     "age":"3 años",
     "owner":"Juan Fernandez",
     "contact":"+573155299982"
-    
   }
 
 

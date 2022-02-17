@@ -1,0 +1,17 @@
+.detailSection{
+    background: var(--green1);
+    height: auto;
+    padding-top:9.6rem ;
+}
+.detailSection h1{
+    margin-top: 2rem;
+    color: var(--green3);
+    font-size: 3rem;
+    text-align: center;
+}
+.detailSection h4{
+    margin-top: 2rem;
+    color: var(--green3);
+    font-size: 2rem;
+    text-align: center;
+}
