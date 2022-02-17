@@ -6,10 +6,11 @@ import { Detail } from "./components/Detail/detail";
 
 import { useState } from "react";
 import { Footer } from "./components/Footer/footer";
+import styles from "./styles.module.css";
 function Container() {
   const [detail, setDetail] = useState([]);
   return (
-    <div>
+    <div className = {styles.container}>
       <BrowserRouter>
         <NavBar />
 

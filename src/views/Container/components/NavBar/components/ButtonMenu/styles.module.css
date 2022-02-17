@@ -3,3 +3,8 @@
   font-size: 4rem;
   margin: 5%;
 }
+@media (min-width:900px) {
+  .btnMenu {
+    display: none;
+  }
+}

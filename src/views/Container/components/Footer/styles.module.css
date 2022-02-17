@@ -2,6 +2,8 @@
     background: var(--green3);
     color: var(--white);
     display: flex;
+    position: absolute;
+    bottom: 0;
     justify-content: center;
     align-items: center;
     width: 100%;

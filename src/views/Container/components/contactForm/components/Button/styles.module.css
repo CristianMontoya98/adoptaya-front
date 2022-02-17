@@ -8,4 +8,19 @@
   height: 5rem;
   width: 12rem;
   border: none;
+  transition: all ease 0.3s;
+}
+@media(min-width:900px) {
+  .btnForm input {
+    width:35rem;
+  }
+  .btnForm:hover {
+    background: var(--green2);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .btnForm:active {
+    background: var(--green3);
+    transform: scale(0.9)
+  }
 }

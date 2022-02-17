@@ -11,7 +11,6 @@ function ItemsMenu(props) {
         <li onClick={() => handleItemClick()}>
           <Link to="/adopt">Adóptame</Link>
         </li>
-        <li onClick={() => handleItemClick()}>Encuentrale hogar</li>
       </ul>
     </div>
   );
