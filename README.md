@@ -1,3 +1,7 @@
+# AdoptaYa
+
+- Application done to connnect people or organizations who need to find a home to any animal they might have found or can no longer support. This is the frontend half of the proyect.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
