@@ -1,11 +1,10 @@
-.nameField{
-    border-radius: 1.5rem;
-    border: solid 2px var(--green3);
-    padding: 1rem;
-    width: 24rem;
-    height: 2rem;
-
+.nameField {
+  border-radius: 1.5rem;
+  border: solid 2px var(--green3);
+  padding: 1rem;
+  width: 24rem;
+  height: 2rem;
 }
-.nameField:focus{
-    outline: none;
+.nameField:focus {
+  outline: none;
 }

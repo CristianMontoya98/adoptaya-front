@@ -1,72 +1,70 @@
-.contactForm{
-color: var(--green3);
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: auto;
-padding-bottom: 8rem;
-padding-top:9.6rem ;
+.contactForm {
+  color: var(--green3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding-bottom: 8rem;
+  padding-top: 9.6rem;
 }
 
-
-.contactForm h1{
-    margin-top: 5rem;
-    margin-left: 2rem;
-    color: var(--green3);
-    font-size: 3rem;
-    text-align: left;
-    width: 35rem;
+.contactForm h1 {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  color: var(--green3);
+  font-size: 3rem;
+  text-align: left;
+  width: 35rem;
 }
-.contactForm p{
-    color: var(--green3);
-    font-size: 1.7rem;
-    text-align: center;
-    width: 18rem;
-    align-self: center;
+.contactForm p {
+  color: var(--green3);
+  font-size: 1.7rem;
+  text-align: center;
+  width: 18rem;
+  align-self: center;
 }
-.contactForm__title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contactForm__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.contactForm__title h2{
-    color: var(--green3);
-    margin-top:0;
-    margin-left: 1rem;
-    margin-right: 0;
-    font-size: 1.7rem;
-    text-align:left;
-    width: 30rem;
-    align-self: center;
+.contactForm__title h2 {
+  color: var(--green3);
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-right: 0;
+  font-size: 1.7rem;
+  text-align: left;
+  width: 30rem;
+  align-self: center;
 }
-.contactForm__fields{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.contactForm__fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.contactForm__fields h2{
-    font-size: 2rem;
-}
-
-.buttons{
-    display: flex;
-    justify-content: space-evenly;
-    width: 30rem;
-    margin-top: 5rem;
+.contactForm__fields h2 {
+  font-size: 2rem;
 }
 
-.buttons button{
-    background-color: var(--green3);
-    border-radius: 5rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
-    color: #fff;
-    height: 5rem;
-    width: 12rem;
-    border: none; 
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30rem;
+  margin-top: 5rem;
 }
 
+.buttons button {
+  background-color: var(--green3);
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  height: 5rem;
+  width: 12rem;
+  border: none;
+}
