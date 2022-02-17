@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Rufus",
+    "status": "En adopcion",
+    "species":"Perro",
+    "location":"Barcelona",
+    "description":"Un perrito muy amoroso que está ansioso por estar en tu hogar",
+    "descriptionabridged": "Un perrito muy amoroso que está ansioso por estar en tu hogar",
+    "img":"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/6124cf315cafe8c3101f8bab/perro-slide_0.jpg",
+    "age":"2 años",
+    "owner":"Juan Fernandez",
+    "contact":"+573155299982"
+    
+  },
+  {
+    "id": 2,
+    "name": "Mateo",
+    "status": "En acogida",
+    "species":"Gato",
+    "location":"Madrid",
+    "description":"Un gatito muy amoroso que está ansioso por estar en tu hogar",
+    "description_abridged": "Un gatito muy amoroso que está ansioso por estar en tu hogar",
+    "img":"https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg",
+    "age":"3 años",
+    "owner":"Juan Fernandez",
+    "contact":"+573155299982"
+    
+  }
+
+
+]

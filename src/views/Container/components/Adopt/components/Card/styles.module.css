@@ -1,0 +1,82 @@
+.card img{
+    width: 100%;
+    height: auto;
+    height: 30rem;
+}
+.card{
+    width: 37rem;
+    background: var(--white);
+    overflow: hidden;
+    border-radius: 2rem;
+    padding-bottom: 2rem;
+    margin: 1rem;
+    box-shadow: 0.5rem 0.5rem 3rem 0.3rem rgba(0, 0, 0, 0.3);
+}
+.card__textTop{
+    display: flex;
+    justify-content: space-between;
+}
+.card__textTop h2{
+    margin: 2rem;
+    color: var(--green3);
+    font-size: 1.8rem;
+}
+.card__textTop i{
+    font-size: 2.2rem;
+}
+.nameOwner h3{
+    color: var(--green3);
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description h2{
+    color: var(--green3);
+    font-size: 1.7rem;
+    width: 30rem;
+    text-align: left;
+    
+}
+.card__bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card__textBottom{
+    display: flex;
+    align-items: center;
+    width: 23rem;
+}
+.card__textBottom i{
+    color: var(--green3);
+    font-size: 3rem;
+}
+.card__textBottom h3{
+    font-size: 1.2rem;
+    color: var(--green3);
+}
+.card__textBottom span{
+    background: var(--green2);
+    margin-left: 1rem;
+    border-radius: 2rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--white);
+    padding: 1rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.card__btn{
+    border: none;
+    background: var(--green3);
+    color: var(--white);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+}
