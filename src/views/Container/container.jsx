@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Detail } from "./components/Detail/detail";
 
 import { useState } from "react";
+import { Footer } from "./components/Footer/footer";
 function Container() {
   const [detail, setDetail] = useState([]);
   return (
@@ -19,6 +20,7 @@ function Container() {
           <Route path="/contact" element={<ContactForm detail={detail} />} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
