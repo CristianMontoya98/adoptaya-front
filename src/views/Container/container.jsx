@@ -1,4 +1,5 @@
 import { Adopt } from "./components/Adopt/Adopt";
+import { ContactForm } from "./components/ContactForm/contactForm";
 import { NavBar } from "./components/NavBar/navBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FindHome } from "./components/FindHome/findHome";
