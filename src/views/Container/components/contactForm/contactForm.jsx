@@ -1,20 +1,27 @@
-import { useState } from "react";
-import {BackButton} from "./components/BackButton/backButton";
+import {Button} from "./components/Button/button";
 import {NameField} from "./components/NameField/nameField";
-import {SendButton} from "./components/BackButton/backButton";
 import styles from "./styles.module.css";
 
-function contactForm (){
+function ContactForm (){
 return(
-<>
-<div classname={styles.contactForm}>
-<NameField>Introduce tu nombre</NameField>
-<div classname={styles.contact__btn}>
-
-    </div>
+    <>
+        <div className={styles.contentForm}>
+        <h1>Un último detalle antes de continuar...</h1>
+        <h3>Introduce estos datos, para continuar con el proceso:</h3>
+            <div>
+                <h2>Nombre*</h2>
+                <NameField />
+                <h2>Ciudad*</h2>
+                <NameField />
+            </div>
+            <div className={styles.btnForm}>
+                <Button text="VOLVER"/>
+                <Button text="ENVIAR"/>
+            </div>
 </div>
+
 </>
 );
 }
 
-export {contactForm};
+export {ContactForm};

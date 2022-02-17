@@ -4,7 +4,7 @@ function NameField (){
 
     return(
         <>
-        <input className={nameField}></input>
+        <input type="text" className={styles.nameField}  />
         </>
     )
 }

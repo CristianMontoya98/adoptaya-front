@@ -1,4 +1,5 @@
 import { Adopt } from "./components/Adopt/Adopt";
+import { ContactForm } from "./components/ContactForm/contactForm";
 import { NavBar } from "./components/NavBar/navBar";
 
 function Container() {
@@ -6,7 +7,7 @@ function Container() {
         <div>
             <NavBar />
             <Adopt />
-            
+            <ContactForm />
         </div>
     );
 }
