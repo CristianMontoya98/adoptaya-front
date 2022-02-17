@@ -1,27 +1,31 @@
 import styles from "./styles.module.css";
 import { useState } from "react";
 function SearchBox(props) {
-  const { onFilter, setSearch } = props;
-  const [searchText, setSearchText] = useState("");
-  const handleSearch = ({ target: { value } }) => setSearchText(value);
-  const [activeFirst, setActiveFirst] = useState(true);
-  const [activeSecond, setActiveSecond] = useState(true);
-
-  /* Function to change the states active and inactive,
+  const { onFilter, setSearch, loading } = props;
+    const [searchText, setSearchText] = useState("");
+    const handleSearch = ({ target: { value } }) => setSearchText(value);
+    const [activeFirst, setActiveFirst] = useState(true);
+    const [activeSecond, setActiveSecond] = useState(true);
+  
+   /* Function to change the states active and inactive,
  this alternate both states to asign the styles in the filter tags
  */
-  const changeClass = (tag) => {
-    if (tag === 1) {
-      setActiveFirst(false);
-      setActiveSecond(true);
-    } else if (tag === 2) {
-      setActiveSecond(false);
-      setActiveFirst(true);
-    }
-  };
-
+    const changeClass = (tag) => {
+        loading(false)
+        if (tag === 1) {
+            setActiveFirst(false);
+            setActiveSecond(true);
+            
+        } else if(tag === 2){
+          setActiveSecond(false);
+            setActiveFirst(true);
+            
+        } 
+    };
+    
   /*This function clean the search input and re start the styles of the tags*/
   const cleanInput = () => {
+    loading(false);
     setSearchText("");
     setActiveFirst(true);
     setActiveSecond(true);

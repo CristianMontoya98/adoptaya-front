@@ -4,7 +4,14 @@
   padding: 1rem;
   width: 24rem;
   height: 2rem;
+  background-color: var(--green1);
 }
 .nameField:focus {
   outline: none;
+}
+@media(min-width:900px) {
+  .nameField {
+    width: 34rem;
+    font-size: 1.8rem;
+  }
 }

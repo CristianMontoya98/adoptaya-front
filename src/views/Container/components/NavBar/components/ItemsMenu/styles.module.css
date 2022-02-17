@@ -37,3 +37,21 @@
   text-decoration: none;
   color: var(--blue3);
 }
+@media (min-width: 900px) {
+  .menu {
+    height: 9.6rem;
+  }
+  .menu__elements {
+    flex-direction: row;
+  }
+  .menu__elements li {
+    margin-right: 2rem;
+  }
+  .menu__elements li a:hover {
+    text-decoration: underline;
+  }
+  .hide {
+    justify-content: flex-end;
+    top: 0;
+  }
+}
