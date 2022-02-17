@@ -2,6 +2,10 @@
 
 - Application done to connnect people or organizations who need to find a home to any animal they might have found or can no longer support. This is the frontend half of the proyect.
 
+# Build
+In this project the structure of folders is defined using atomic design, the development with mobile first thinking in the accesibility of the users and implement
+the composition of components fora better performance
+
 ## Available Scripts
 
 In the project directory, you can run:
