@@ -6,6 +6,9 @@
 In this project the structure of folders is defined using atomic design, the development with mobile first thinking in the accesibility of the users and implement
 the composition of components fora better performance
 
+# Stack
+the front-end is build with react js and css
+
 ## Available Scripts
 
 In the project directory, you can run:
